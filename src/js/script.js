@@ -1,0 +1,1 @@
+import { arrFabric, arrWood} from "../db/database";
