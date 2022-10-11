@@ -17,13 +17,14 @@ let fileName = `./img/armchair-${arrWood[horizon]}-${arrFabric[vert]}.png`;
 
 const clickBtnHorizon = (type, arrLength) => {
     if (type === 'back') {
-        horizon === 0 ? horizon = arrLength-1 - 1 : horizon = horizon - 1;
+        horizon === 0 ? horizon = arrLength - 1 : horizon = horizon - 1;
     }
     else {
         horizon === arrLength-1 ? horizon = 0 : horizon = horizon + 1;
     }
-    blockImg.src = fileName;
     fileName = `./img/armchair-${arrWood[horizon]}-${arrFabric[vert]}.png`;
+    blockImg.src = fileName;
+
     console.log(horizon, fileName);
 
 
@@ -31,14 +32,15 @@ const clickBtnHorizon = (type, arrLength) => {
 
 const clickBtnVertical = (type, arrLength) => {
     if (type === 'back') {
-        vert === 0 ? vert = arrLength-1 - 1 : vert = vert - 1;
+        vert === 0 ? vert = arrLength - 1 : vert = vert - 1;
     }
     else {
         vert === arrLength-1 ? vert = 0 : vert = vert + 1;
     }
-    blockImg.src = fileName;
     fileName = `./img/armchair-${arrWood[horizon]}-${arrFabric[vert]}.png`;
-    console.log(vert);
+    blockImg.src = fileName;
+
+    console.log(vert, fileName);
 
 
 }
