@@ -1,11 +1,11 @@
-export const arrWood = ['lightWood', 'darkWood', 'oakWood', 'ashWood'];
+export const arrWood = ['oakWhite', 'oakBlack', 'oak', 'ash'];
 
 export const arrFabric = [
-                            'whiteStripeFabric', 
-                            'blackStripeFabric', 
-                            'blueStripeFabric', 
-                            'greenStripeFabric',
-                            'blueFabric',
-                            'brownFabric',
-                            'yellowFabric'
+                            'whiteStripe', 
+                            'blackStripe', 
+                            'blueStripe', 
+                            'greenStripe',
+                            'blue',
+                            'brown',
+                            'yellow'
                         ];
