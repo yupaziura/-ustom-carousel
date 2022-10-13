@@ -11,7 +11,7 @@ const btnDown = document.getElementById('btn_down');
 let horizon = 0;
 let vert = 0;
 
-let fileName = `./img/${arrWood[horizon]}-${arrFabric[vert]}.png`;
+let fileName = `./img/${arrWood[horizon]}-${arrFabric[vert]}.jpg`;
 
 
 
@@ -22,7 +22,7 @@ const clickBtnHorizon = (type, arrLength) => {
     else {
         horizon === arrLength-1 ? horizon = 0 : horizon = horizon + 1;
     }
-    fileName = `./img/${arrWood[horizon]}-${arrFabric[vert]}.png`;
+    fileName = `./img/${arrWood[horizon]}-${arrFabric[vert]}.jpg`;
     blockImg.src = fileName;
 
     console.log(horizon, fileName);
@@ -37,7 +37,7 @@ const clickBtnVertical = (type, arrLength) => {
     else {
         vert === arrLength-1 ? vert = 0 : vert = vert + 1;
     }
-    fileName = `./img/armchair-${arrWood[horizon]}-${arrFabric[vert]}.png`;
+    fileName = `./img/${arrWood[horizon]}-${arrFabric[vert]}.jpg`;
     blockImg.src = fileName;
 
     console.log(vert, fileName);
